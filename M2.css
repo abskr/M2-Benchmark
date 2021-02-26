@@ -2,6 +2,39 @@ nav a:not(.dropdown-item){
   color: whitesmoke !important;
 }
 
-body > div.container {
+body > div.top-container {
   margin-top: 4.3rem;
 }
+
+h1 {
+  font-size: 1rem !important;
+}
+
+p {
+  margin: 0;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-footer {
+  font-size: 0.8rem;
+  pointer-events: initial;
+  z-index: -1;
+  transition: 0.3s ease;
+}
+
+.card:hover > .card-footer{
+  transform: translateY(40px);
+}
+
+img{
+  width: 100%;
+}
+
+#gogLogo {
+  height: 30px;
+  width: 30px;
+}
+
