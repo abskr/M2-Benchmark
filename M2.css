@@ -1,0 +1,7 @@
+nav a:not(.dropdown-item){
+  color: whitesmoke !important;
+}
+
+body > div.container {
+  margin-top: 4.3rem;
+}
